@@ -1,0 +1,15 @@
+{
+    "id": "tailwindify",
+    "name": "Tailwindify",
+    "description": "Plugin for Azuriom",
+    "version": "1.2.4",
+    "url": "https://velyorix.com",
+    "authors": [
+        "Velyorix"
+    ],
+    "azuriom_api": "1.1.0",
+    "providers": [
+        "\\Azuriom\\Plugin\\Tailwindify\\Providers\\TailwindifyServiceProvider",
+        "\\Azuriom\\Plugin\\Tailwindify\\Providers\\RouteServiceProvider"
+    ]
+}
